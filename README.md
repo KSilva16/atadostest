@@ -1,22 +1,22 @@
 # About the project
-This is an automation project for a volunteer company called Atados. 
+Este é um projeto de automação para uma empresa voluntária chamada Atados.
 
 # Pre-requirements
 
-It is required to have Node.js and npm installed to run this project.
+É necessário ter o Node.js e o npm instalados para executar este projeto.
 
-I used versions v20.1.0 and 9.6.4 of Node.js and npm, respectively. I suggest you use the same or later versions.
+Usei as versões v20.1.0 e 9.6.4 do Node.js e npm, respectivamente. Sugiro que você use as mesmas versões ou versões mais recentes.
 
-I also used the Cypress version 13.3.0 and the git version 2.41.0.windows.3
+Também usei o Cypress na versão 13.3.0 e o Git na versão 2.41.0.windows.3
 
 # Installation
 
-Run npm install (or npm i for the short version) to install the dev dependencies.
+Execute npm install (ou npm i para a versão curta) para instalar as dependências de desenvolvimento.
 
 # Tests
 
-Run npm test (or npm t for the short version) to run the test in headless mode.
-Or, run npm cypress open to open Cypress in interactive mode.
+Execute npm test (ou npm t para a versão curta) para executar os testes no modo headless.
+Ou execute npm cypress open para abrir o Cypress no modo interativo.
 
 Para conduzir os testes, optei pela estratégia de "mocking", na qual utilizei dados fictícios como base para a execução dos testes. Inicialmente, inseri dados fictícios e, posteriormente, realizei modificações conforme necessário para abordar cenários específicos.
 Além disso, implementei o uso de "Data Fixtures" para isolar os dados de teste, garantindo a devida confidencialidade. Isso permite manter a integridade dos dados sensíveis durante os testes.
