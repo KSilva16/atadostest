@@ -1,0 +1,13 @@
+{
+    "scripts": {
+        "cy:open": "cypress open",
+        "test": "cypress run"
+    },
+    "dependencies": {
+        "cypress": "^13.3.0"
+    },
+    "devDependencies": {
+        "marge": "^1.0.1",
+        "mochawesome": "^7.1.3"
+    }
+}
