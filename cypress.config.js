@@ -1,11 +1,7 @@
-const { defineConfig } = require("cypress");
-
-module.exports = defineConfig({
+module.exports ({
   e2e: {
     baseUrl: "https://www.atados.com.br/",
-    defaultCommandTimeout: 30000,
     chromeWebSecurity: false,
-    waitForAnimations: false,
     setupNodeEvents(on, config) {
     }
   },
