@@ -1,7 +1,7 @@
-# About the project
+# Sobre o projeto
 Este é um projeto de automação para uma empresa voluntária chamada Atados.
 
-# Pre-requirements
+# Pré requisitos
 
 É necessário ter o Node.js e o npm instalados para executar este projeto.
 
@@ -9,11 +9,11 @@ Usei as versões v20.1.0 e 9.6.4 do Node.js e npm, respectivamente. Sugiro que v
 
 Também usei o Cypress na versão 13.3.0 e o Git na versão 2.41.0.windows.3
 
-# Installation
+# Instalação
 
 Execute npm install (ou npm i para a versão curta) para instalar as dependências de desenvolvimento.
 
-# Tests
+# Testes
 
 Execute npm test (ou npm t para a versão curta) para executar os testes no modo headless.
 Ou execute npm cypress open para abrir o Cypress no modo interativo.
@@ -22,6 +22,8 @@ Para conduzir os testes, optei pela estratégia de "mocking", na qual utilizei d
 Além disso, implementei o uso de "Data Fixtures" para isolar os dados de teste, garantindo a devida confidencialidade. Isso permite manter a integridade dos dados sensíveis durante os testes.
 
 - Para fazer a gestão de erros, foram adicionadas asserções no código e a opção {timeout} para definir um limite de tempo para retentativas.
+
+- PS: O projeto está integrado com o GitHub Actions, de modo à estar possibilitado o desenvolvimento de integração contínua. Desta forma é possível termos uma visão mais rápida sobre a qualidade do código, sobre os testes que passaram e uma integração maior entre os desenvolvedores. 
 
 <details><summary>Testes de Interface de Usuário (UI) - Abra para ver os casos de teste</summary> 
 
