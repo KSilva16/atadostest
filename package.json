@@ -1,8 +1,8 @@
 {
     "scripts": {
-        "cy:open": "cypress open",
-        "test": "cypress run"
-    },
+        "cypress:open": "cypress open --config-file=cypress.config.js",
+        "cypress:run": "cypress run --config-file=cypress.config.js"
+      },
     "dependencies": {
         "cypress": "^13.3.0"
     },
